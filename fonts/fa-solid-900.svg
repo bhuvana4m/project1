@@ -1,21 +1,62 @@
+
+
+
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Unable to Process Request !</title>
-	
-    <meta name="keywords" content="keyword1,keyword2,keyword3">
-    <meta name="description" content="this is my page">
-    <meta name="content-type" content="text/html; charset=ISO-8859-1">
-    
-    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
-	<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
-  </head>
-  
-  <body>
-  <center>
-  	<h3>
-  		We are unable to process your request. Please try again later.
-  	</h3>
-  </center>
-  </body>
+<head>
+<title>IOB NetBanking</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Expires" CONTENT="-1">
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+
+<link rel="stylesheet" href="../css/jquery-ui.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/custom.css">
+<link rel="stylesheet" href="../css/all.css">
+
+<script type="text/javascript">
+	function clearcache() {
+		window.open('clearcache.html', '', 'toolbar=no,menubar=no,location=no,scrollbars=1,height=550,width=550,left=160,top=120');
+	}
+</script>
+
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<h1 class="logo">
+						<a title="IOB Net Banking - home"> <img src="../images/logo.jpg" alt="IOB Net Banking" class="d-md-block d-none"> <img src="../images/logo-mbl.jpg" alt="IOB Net Banking" class="d-md-none d-block mx-auto mt-2">
+						</a>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<h1 class="text-center page-title-bg">Internet Banking</h1>
+
+	<div class="container reg-form-ind">
+		<div class="alert alert-danger text-center mt-5 otpmsg">
+			<i class="mar-5">&nbsp;</i><strong><span class="red">Kindly
+					Login through proper channel. <a href="./html/index.html" class="text-primary">Click here</a> for Login Page
+			</span></strong>
+		</div>
+	</div>
+
+
+
+	<!--<h3><center>Please use this link and clear your browser cache and proceed  <a href="javascript:clearcache()"><u><b><font color="#0000FF" style="font-family:Arial" size="3">Clear Browser Cache</font></b></u></a></center></h3>-->
+</body>
 </html>

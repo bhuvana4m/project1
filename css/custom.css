@@ -384,6 +384,9 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 #main-menu ul.menu > li.nav-item {
 	padding: 22px 10px!important;
 }
+#main-menu ul.menu > li.nav-item-mal {
+	padding: 22px 0px!important;
+}
 #main-menu ul.menu > li > a {
     font-size: 1.2em;
     color: #fff;
@@ -575,6 +578,8 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 		position: fixed;
 		right: -15px;
 	}
+	.img-captcha{width:40%!important;}
+	.otp-text{width:60%!important;}
 }
 
 /*end right section*/
@@ -583,7 +588,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 .red-content {
     /* height: 70%;
     min-height: 364px; */
-    padding: 5%;
+    padding: 1%;
 	/* background: #e53935; */
     color: #fff;
     display:flex;
@@ -592,6 +597,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
     justify-content:center;
     align-items:center;
 }
+.white-box{background: #FFFFFF;}
 .red-box{background: #e53935;}
 @media (min-width: 768px){
 	.col-md-6.red-box{
@@ -669,6 +675,22 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
     font-size: 12px;
     line-height: 1.5;
     border-radius: 3px;
+}
+.button-white{
+	background-color: #f0f0f0;
+	color: #004080 !important;
+	font-size: 17px !important;
+	text-align: center !important;
+	border-radius: 5px !important;
+	font-weight:bold !important;
+}
+.mal-pmcls{
+	background-color: #f0f0f0;
+	color: #004080 !important;
+	text-align: center !important;
+	border-radius: 5px !important;
+	font-weight:bold !important;
+	font-size: 1em !important;
 }
 /*end banner section*/
 
@@ -949,6 +971,9 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 {
 	color:#337ab7;
 }
+.login-box input[type=submit]{
+	line-height:1.5;
+}
 .login-box label, .login-box input {
     margin-bottom: 10px;
     border: none;
@@ -956,6 +981,17 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
     border-radius: 5px;
 /*	width: 355px; */
 }
+.login-box input[type="radio"] {
+    float: left;
+    margin-right: 5px;
+    /*margin-top: 1px;*/
+}
+.img-captcha{width:30%;float:left;}
+.otp-text{width:70%;float:left;}
+
+.img-captcha label{font-weight:bolder;color:#838383;}
+.otp-text label{font-weight:bolder;color:#838383;}
+
 form label {
     display: block;
     margin-bottom: 5px;
@@ -1076,7 +1112,7 @@ ul.triangle {
 }
 .btn-danger,.btn-success,.btn-primary {
     /* padding: 6px 32px; */
-	border-radius:0;
+	border-radius:0 !important;
 }
 
 .fund-neft ol li{
@@ -1829,7 +1865,7 @@ h3 img.fas.mar-5 {
 }
 
 .loadingimageclass{
-	background: rgba(255,255,255,.8) url('../images/loader.gif') 50% 50% no-repeat; height:100%; width:100%;position:fixed;z-index:ï¿½1000;top:0;left:0;
+	background: rgba(255,255,255,.8) url('../images/loader.gif') 50% 50% no-repeat; height:100%; width:100%;position:fixed;z-index: 1000;top:0;left:0;
 }
 body.loading{
 	overflow:hidden;
